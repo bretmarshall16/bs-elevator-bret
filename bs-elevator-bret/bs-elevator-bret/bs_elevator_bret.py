@@ -1,5 +1,5 @@
-from Services import elevator_service
+from Classes.elevator_class import Elevator
 
-
-elevator = elevator_service.setup_elevator_service()
-elevator_service.run_elevator(elevator)
+elevator = Elevator()
+elevator.setup_elevator_service()
+elevator.run_evevator_service()
